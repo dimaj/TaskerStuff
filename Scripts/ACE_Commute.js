@@ -6,7 +6,7 @@ var data = json.get_vehicles;
 
 // update last updated time
 var gen_on = new Date();
-setLocal('%ace_last_update', gen_on.getHours() + ":" + gen_on.getMinutes());
+setLocal('%ace_last_update', ('0' + gen_on.getHours()).substr(-2) + ":" + ('0' + gen_on.getMinutes()).substr(-2));
 
 // define list of stations of my interest
 var fremont = 156;

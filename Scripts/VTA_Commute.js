@@ -17,7 +17,7 @@ var lmWorkArr = [], lmHomeArr = [], mpWorkArr = [], mpHomeArr = [];
 // get time when response was generated at
 var gen_on_ms = Date.parse(json.generated_on);
 var gen_on = new Date(new Date().setTime(gen_on_ms));
-setLocal('%vta_last_update', gen_on.getHours() + ":" + gen_on.getMinutes());
+setLocal('%vta_last_update', ('0' + gen_on.getHours()).substr(-2) + ":" + ('0' + gen_on.getMinutes()).substr(-2));
 
 // iterate over stops
 for (var i = 0; i < data.length; i++) {
