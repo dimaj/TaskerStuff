@@ -28,8 +28,11 @@ for (var i = 0; i < data.length; i++) {
     
     // get mins remaining
     var minsLeft = curStop.minutes;
+    if (minsLeft == null || minsLeft == "") {
+      continue;
+    }
     var arrTime = curStop.time;
-    var isAm = arrTime.toLowerCase().indexOf("am");
+    var isAm = arrTime.toLowerCase().indexOf("am") > 0;
 
     // add values to the appropriate arrays
     if (stopID == fremont) {
