@@ -1,0 +1,358 @@
+<class name="Template" index="">
+	<backColour>#FF000000</backColour>
+	<borderColour>#FFFFFFFF</borderColour>
+	<borderWidth>1</borderWidth>
+	<cellData>254,328,10,0;318,222,0,0</cellData>
+	<cellsHigh>1</cellsHigh>
+	<cellsWide>2</cellsWide>
+	<marginWidth>0</marginWidth>
+	<name>Crypto Currency1</name>
+	<class name="Element" index="elements0">
+		<elementType>Image</elementType>
+		<heightLand>111</heightLand>
+		<heightPort>70</heightPort>
+		<name>btcImg</name>
+		<visible>true</visible>
+		<widthLand>326</widthLand>
+		<widthPort>70</widthPort>
+		<xLand>284</xLand>
+		<xPort>4</xPort>
+		<yLand>110</yLand>
+		<yPort>103</yPort>
+		<class name="ImageElement" index="state0">
+			<alpha>255</alpha>
+			<stateName></stateName>
+			<uri>content://media/external/images/media/73003</uri>
+		</class>
+	</class>
+	<class name="Element" index="elements1">
+		<elementType>Image</elementType>
+		<heightLand>111</heightLand>
+		<heightPort>70</heightPort>
+		<name>ltcImg</name>
+		<visible>true</visible>
+		<widthLand>326</widthLand>
+		<widthPort>70</widthPort>
+		<xLand>326</xLand>
+		<xPort>4</xPort>
+		<yLand>39</yLand>
+		<yPort>175</yPort>
+		<class name="ImageElement" index="state0">
+			<alpha>255</alpha>
+			<stateName></stateName>
+			<uri>content://media/external/images/media/72923</uri>
+		</class>
+	</class>
+	<class name="Element" index="elements10">
+		<elementType>Text</elementType>
+		<heightLand>52</heightLand>
+		<heightPort>60</heightPort>
+		<name>ltc_updated</name>
+		<visible>true</visible>
+		<widthLand>173</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>478</xLand>
+		<xPort>371</xPort>
+		<yLand>94</yLand>
+		<yPort>179</yPort>
+		<class name="TextElement" index="state0">
+			<centre>false</centre>
+			<stateName></stateName>
+			<text></text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements11">
+		<elementType>Text</elementType>
+		<heightLand>52</heightLand>
+		<heightPort>60</heightPort>
+		<name>ftc_updated</name>
+		<visible>true</visible>
+		<widthLand>173</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>478</xLand>
+		<xPort>371</xPort>
+		<yLand>168</yLand>
+		<yPort>254</yPort>
+		<class name="TextElement" index="state0">
+			<centre>false</centre>
+			<stateName></stateName>
+			<text></text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements12">
+		<elementType>Text</elementType>
+		<heightLand>40</heightLand>
+		<heightPort>60</heightPort>
+		<name>lblBuy</name>
+		<visible>true</visible>
+		<widthLand>171</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>127</xLand>
+		<xPort>75</xPort>
+		<yLand>29</yLand>
+		<yPort>11</yPort>
+		<class name="TextElement" index="state0">
+			<centre>true</centre>
+			<stateName></stateName>
+			<text>Buy</text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements13">
+		<elementType>Text</elementType>
+		<heightLand>40</heightLand>
+		<heightPort>60</heightPort>
+		<name>lblSell</name>
+		<visible>true</visible>
+		<widthLand>171</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>311</xLand>
+		<xPort>221</xPort>
+		<yLand>23</yLand>
+		<yPort>11</yPort>
+		<class name="TextElement" index="state0">
+			<centre>true</centre>
+			<stateName></stateName>
+			<text>Sell</text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements14">
+		<elementType>Text</elementType>
+		<heightLand>40</heightLand>
+		<heightPort>60</heightPort>
+		<name>lblUpdate</name>
+		<visible>true</visible>
+		<widthLand>171</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>477</xLand>
+		<xPort>370</xPort>
+		<yLand>21</yLand>
+		<yPort>11</yPort>
+		<class name="TextElement" index="state0">
+			<centre>true</centre>
+			<stateName></stateName>
+			<text>Time</text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements15">
+		<elementType>Image</elementType>
+		<heightLand>40</heightLand>
+		<heightPort>70</heightPort>
+		<name>btcImg1</name>
+		<visible>false</visible>
+		<widthLand>75</widthLand>
+		<widthPort>70</widthPort>
+		<xLand>52</xLand>
+		<xPort>4</xPort>
+		<yLand>29</yLand>
+		<yPort>11</yPort>
+		<class name="ImageElement" index="state0">
+			<alpha>255</alpha>
+			<stateName></stateName>
+			<uri>content://media/external/images/media/73006</uri>
+		</class>
+	</class>
+	<class name="Element" index="elements16">
+		<elementType>Rect</elementType>
+		<heightLand>327</heightLand>
+		<heightPort>327</heightPort>
+		<name>Rectangle1</name>
+		<visible>true</visible>
+		<widthLand>517</widthLand>
+		<widthPort>517</widthPort>
+		<xLand>0</xLand>
+		<xPort>0</xPort>
+		<yLand>0</yLand>
+		<yPort>0</yPort>
+		<class name="RectElement" index="state0">
+			<cornerRadius>0</cornerRadius>
+			<corners>all</corners>
+			<endColour>#77333333</endColour>
+			<shade>none</shade>
+			<startColour>#00333333</startColour>
+			<stateName></stateName>
+			<class name="TaskAction" index="onClick0">
+				<name>Crypto Currency Price Updates</name>
+			</class>
+		</class>
+	</class>
+	<class name="Element" index="elements2">
+		<elementType>Image</elementType>
+		<heightLand>111</heightLand>
+		<heightPort>70</heightPort>
+		<name>ftcImg</name>
+		<visible>true</visible>
+		<widthLand>326</widthLand>
+		<widthPort>70</widthPort>
+		<xLand>326</xLand>
+		<xPort>4</xPort>
+		<yLand>98</yLand>
+		<yPort>252</yPort>
+		<class name="ImageElement" index="state0">
+			<alpha>255</alpha>
+			<stateName></stateName>
+			<uri>content://media/external/images/media/73005</uri>
+		</class>
+	</class>
+	<class name="Element" index="elements3">
+		<elementType>Text</elementType>
+		<heightLand>111</heightLand>
+		<heightPort>60</heightPort>
+		<name>btc_buy</name>
+		<visible>true</visible>
+		<widthLand>326</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>240</xLand>
+		<xPort>75</xPort>
+		<yLand>34</yLand>
+		<yPort>105</yPort>
+		<class name="TextElement" index="state0">
+			<centre>false</centre>
+			<stateName></stateName>
+			<text>1239.78</text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements4">
+		<elementType>Text</elementType>
+		<heightLand>52</heightLand>
+		<heightPort>60</heightPort>
+		<name>ltc_buy</name>
+		<visible>true</visible>
+		<widthLand>173</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>190</xLand>
+		<xPort>75</xPort>
+		<yLand>109</yLand>
+		<yPort>179</yPort>
+		<class name="TextElement" index="state0">
+			<centre>false</centre>
+			<stateName></stateName>
+			<text></text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements5">
+		<elementType>Text</elementType>
+		<heightLand>52</heightLand>
+		<heightPort>60</heightPort>
+		<name>ftc_buy</name>
+		<visible>true</visible>
+		<widthLand>173</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>179</xLand>
+		<xPort>75</xPort>
+		<yLand>168</yLand>
+		<yPort>254</yPort>
+		<class name="TextElement" index="state0">
+			<centre>false</centre>
+			<stateName></stateName>
+			<text></text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements6">
+		<elementType>Text</elementType>
+		<heightLand>52</heightLand>
+		<heightPort>60</heightPort>
+		<name>btc_sell</name>
+		<visible>true</visible>
+		<widthLand>173</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>406</xLand>
+		<xPort>221</xPort>
+		<yLand>41</yLand>
+		<yPort>105</yPort>
+		<class name="TextElement" index="state0">
+			<centre>false</centre>
+			<stateName></stateName>
+			<text></text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements7">
+		<elementType>Text</elementType>
+		<heightLand>52</heightLand>
+		<heightPort>60</heightPort>
+		<name>ltc_sell</name>
+		<visible>true</visible>
+		<widthLand>173</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>340</xLand>
+		<xPort>221</xPort>
+		<yLand>106</yLand>
+		<yPort>179</yPort>
+		<class name="TextElement" index="state0">
+			<centre>false</centre>
+			<stateName></stateName>
+			<text></text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements8">
+		<elementType>Text</elementType>
+		<heightLand>52</heightLand>
+		<heightPort>60</heightPort>
+		<name>ftc_sell</name>
+		<visible>true</visible>
+		<widthLand>173</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>378</xLand>
+		<xPort>221</xPort>
+		<yLand>168</yLand>
+		<yPort>254</yPort>
+		<class name="TextElement" index="state0">
+			<centre>false</centre>
+			<stateName></stateName>
+			<text></text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements9">
+		<elementType>Text</elementType>
+		<heightLand>52</heightLand>
+		<heightPort>60</heightPort>
+		<name>btc_updated</name>
+		<visible>true</visible>
+		<widthLand>173</widthLand>
+		<widthPort>137</widthPort>
+		<xLand>478</xLand>
+		<xPort>371</xPort>
+		<yLand>37</yLand>
+		<yPort>105</yPort>
+		<class name="TextElement" index="state0">
+			<centre>false</centre>
+			<stateName></stateName>
+			<text></text>
+			<textColour>#ffffffff</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+</class>
